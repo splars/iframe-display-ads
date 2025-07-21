@@ -1,9 +1,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Ad slot improvements */
 .ad-slot-container {
